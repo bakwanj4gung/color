@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme {
+    --animate-fade-in: fade-in 1s linear 300ms backwards;
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
